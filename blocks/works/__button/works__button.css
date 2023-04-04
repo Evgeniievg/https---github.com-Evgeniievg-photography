@@ -1,0 +1,10 @@
+.works__button{
+  align-self: flex-end;
+  margin: 42px 0 52px 0;
+}
+
+@media screen and (max-width: 670px) {
+  .works__button{
+    margin: 42px auto 52px auto;
+  }
+}

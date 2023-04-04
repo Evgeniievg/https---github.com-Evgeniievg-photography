@@ -1,0 +1,10 @@
+.model_reversed{
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 821px) {
+  .model_reversed{
+    flex-direction: column;
+    margin: auto;
+  }
+}

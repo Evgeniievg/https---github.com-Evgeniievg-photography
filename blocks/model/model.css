@@ -1,0 +1,11 @@
+.model{
+  padding: 50px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 821px) {
+  .model{
+    flex-direction: column;
+    margin: auto;
+  }
+}

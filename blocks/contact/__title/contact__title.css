@@ -1,0 +1,39 @@
+.contact__title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 82px;
+  line-height: 105%;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+@media screen and (max-width: 1071px) {
+  .contact__title{
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact__title{
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+
+  .contact__title{
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact__title{
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact__title{
+    font-size: 34px;
+  }
+}

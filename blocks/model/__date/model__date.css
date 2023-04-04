@@ -1,0 +1,16 @@
+.model__date{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: 821px) {
+  .model__date{
+    align-self: center;
+  }
+}

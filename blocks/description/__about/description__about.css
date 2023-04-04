@@ -1,0 +1,35 @@
+.description__about{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1060px) {
+  .description__about{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .description__about{
+    display: block;
+    max-width: 30vw;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .description__about{
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .description__about{
+    font-size: 12px;
+    max-width: 40vw;
+  }
+}
+

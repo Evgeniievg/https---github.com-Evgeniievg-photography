@@ -1,0 +1,24 @@
+.model__image{
+  width: 35vw;
+  border: 1px solid #FC4308;
+}
+
+@media screen and (min-width: 1280px) {
+  .model__image{
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .model__image{
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .model__image{
+    margin: auto;
+    margin-top: 30px;
+    width: 70vw;
+  }
+}

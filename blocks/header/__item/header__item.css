@@ -1,0 +1,16 @@
+.header__item{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+  color: #FC4308;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 821px) {
+  .header__item{
+    font-size: 32px;
+  }
+}

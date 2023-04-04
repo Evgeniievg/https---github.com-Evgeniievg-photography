@@ -1,0 +1,19 @@
+.description__text{
+  width: 50%;
+}
+
+@media screen and (max-width: 1060px) {
+  .description__text{
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .description__text{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+  }
+}
+

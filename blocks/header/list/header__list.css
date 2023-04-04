@@ -1,0 +1,13 @@
+.header__list{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  transition: all ease .3s;
+}
+
+@media screen and (max-width: 820px) {
+  .header__list{
+    display: none;
+  }
+}

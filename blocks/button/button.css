@@ -1,0 +1,12 @@
+.button{
+  color: #FC4308;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  border: 1px #FC4308 solid;
+  padding: 12px 0px;
+  width: 150px;
+  cursor: pointer;
+}

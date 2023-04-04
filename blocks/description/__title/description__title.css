@@ -1,0 +1,45 @@
+.description__title{
+  font-weight: 500;
+  font-size: 84px;
+  line-height: 105%;
+  letter-spacing: -0.065em;
+  margin: 0;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1060px) {
+  .description__title{
+    font-size: 68px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .description__title{
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .description__title{
+    margin-top: 20px;
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .description__title{
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 453px) {
+  .description__title{
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .description__title{
+    font-size: 24px;
+  }
+}

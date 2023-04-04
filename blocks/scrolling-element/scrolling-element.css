@@ -1,0 +1,8 @@
+.scrolling-element{
+  opacity: 0;
+  transition: .3s ease-in all;
+}
+
+.scrolling-element.visible{
+  opacity: 1;
+}

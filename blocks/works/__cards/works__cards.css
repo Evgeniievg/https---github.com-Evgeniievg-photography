@@ -1,0 +1,13 @@
+.works__cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 670px) {
+  .works__cards{
+    flex-direction: column;
+    margin: auto;
+    gap: 25px;
+  }
+}

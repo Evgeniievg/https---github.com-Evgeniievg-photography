@@ -1,0 +1,28 @@
+.model__description{
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 33vw;
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .model__description{
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .model__description{
+    width: 50vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .model__description{
+    width: 70vw;
+  }
+}
