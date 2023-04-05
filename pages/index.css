@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(./blocks/standart-size/standart-size.css);
-@import url(./blocks/scrolling-element/scrolling-element.css);
-@import url(./blocks/header/header.css);
-@import url(./blocks/header/__container/header__container.css);
-@import url(./blocks/header/list/header__list.css);
-@import url(./blocks/header/__item/header__item.css);
-@import url(./blocks/header/__item/_contact/header__item_contact.css);
-@import url(./blocks/header/__logo/header__logo.css);
-@import url(./blocks/header/__logo-image/header__logo-image.css);
-@import url(./blocks/header/__logo-title/header__logo-title.css);
+@import url(../blocks/standart-size/standart-size.css);
+@import url(../blocks/scrolling-element/scrolling-element.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/list/header__list.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__item/_contact/header__item_contact.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-image/header__logo-image.css);
+@import url(../blocks/header/__logo-title/header__logo-title.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__about/description__about.css);
 @import url(../blocks/description/__image/description__image.css);
@@ -53,7 +53,7 @@
 @import url(../blocks/footer/__terms/footer__terms.css);
 @import url(./blocks/footer/__term/footer__term.css);
 @import url(./blocks/popup/popup.css);
-@import url(./blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/burger-menu.css);
 
 
 
