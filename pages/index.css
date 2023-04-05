@@ -1,17 +1,104 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 @import url(../vendor/normalize.css);
-@import url(../blocks/page/page.css);
-@import url(../blocks/standart-size/standart-size.css);
-@import url(../blocks/scrolling-element/scrolling-element.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/./__container/header__container.css);
-@import url(../blocks/header/./list/header__list.css);
-@import url(../blocks/header/./__item/header__item.css);
-@import url(../blocks/header/./__item/_contact/header__item_contact.css);
-@import url(../blocks/header/./__logo/header__logo.css);
-@import url(../blocks/header/./__logo-image/header__logo-image.css);
-@import url(../blocks/header/./__logo-title/header__logo-title.css);
+.page{
+  color: #FC4308;
+  font-family: 'Montserrat', sans-serif;
+  background: radial-gradient(87.78% 110.36% at 83.44% 19.66%, #0D1E20 0%, #313E2A 69.51%, #262D20 96.87%);
+}
+
+.standart-size{
+  max-width: 85vw;
+  display: flex;
+  margin: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .standart-size{
+    max-width: 1184px;
+  }
+}
+
+.scrolling-element{
+  opacity: 0;
+  transition: .3s ease-in all;
+}
+
+.scrolling-element.visible{
+  opacity: 1;
+}
+
+.header{
+  width: 100%;
+}
+
+@media screen and (max-width: 821px){
+  .header{
+    padding-top: 20px;
+  }
+}
+
+.header__container{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__list{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  transition: all ease .3s;
+}
+
+@media screen and (max-width: 820px) {
+  .header__list{
+    display: none;
+  }
+}
+
+.header__item{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+  color: #FC4308;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 821px) {
+  .header__item{
+    font-size: 32px;
+  }
+}
+
+.header__item_contact{
+  border: #FC4308 solid 1px;
+  padding: 10px 12px;
+}
+
+.header__logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header__logo-image{
+  width: 21px;
+  height: 10px;
+}
+
+.header__logo-title{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__about/description__about.css);
 @import url(../blocks/description/__image/description__image.css);
